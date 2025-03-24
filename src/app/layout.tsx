@@ -28,7 +28,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header className="bg-violet-900 flex justify-between pl-12 pr-12 pt-6 pb-6">
-          <h1 className="text-2xl">fernando2dias</h1>
+          <div>
+            <h1 className="text-2xl text-yellow-500">fernando2dias</h1>
+            <h2 className="text-xs text-yellow-50">Web Developer Full Stack</h2>
+          </div>
           <ul className="flex justify-around items-center w-50">
             <li><a href="#" target="_self">Projetos</a></li>
             <li><a href="#" target="_self">Estudos</a></li>
