@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -23,4 +24,13 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  background: rgb(10,10,10);
+background: linear-gradient(90deg, rgba(10,10,10,1) 10%, rgba(39,84,138,1) 50%, rgba(10,10,10,1) 90%);
+}
+
+.tit-banner {
+  font-family: "Winky Sans", sans-serif;
 }
